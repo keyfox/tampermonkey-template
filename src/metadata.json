@@ -1,0 +1,9 @@
+{
+  "namespace": "https://keyfox.net",
+  "author": "Keyfox",
+  "include": [
+    "https://example.org/*"
+  ],
+  "run-at": "document-end",
+  "grant": "none"
+}
