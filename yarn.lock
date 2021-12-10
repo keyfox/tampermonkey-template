@@ -3723,6 +3723,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime@npm:>=2.4.6":
+  version: 3.0.0
+  resolution: "mime@npm:3.0.0"
+  bin:
+    mime: cli.js
+  checksum: f43f9b7bfa64534e6b05bd6062961681aeb406a5b53673b53b683f27fcc4e739989941836a355eef831f4478923651ecc739f4a5f6e20a76487b432bfd4db928
+  languageName: node
+  linkType: hard
+
 "mimic-fn@npm:^2.1.0":
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
@@ -3988,6 +3997,15 @@ __metadata:
   dependencies:
     mimic-fn: ^2.1.0
   checksum: 2478859ef817fc5d4e9c2f9e5728512ddd1dbc9fb7829ad263765bb6d3b91ce699d6e2332eef6b7dff183c2f490bd3349f1666427eaba4469fba0ac38dfd0d34
+  languageName: node
+  linkType: hard
+
+"opener@npm:1":
+  version: 1.5.2
+  resolution: "opener@npm:1.5.2"
+  bin:
+    opener: bin/opener-bin.js
+  checksum: 33b620c0d53d5b883f2abc6687dd1c5fd394d270dbe33a6356f2d71e0a2ec85b100d5bac94694198ccf5c30d592da863b2292c5539009c715a9c80c697b4f6cc
   languageName: node
   linkType: hard
 
@@ -4336,6 +4354,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rollup-plugin-serve@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "rollup-plugin-serve@npm:1.1.0"
+  dependencies:
+    mime: ">=2.4.6"
+    opener: 1
+  checksum: 3f5db911047f4e0ba341ee867171c99092fa63e47b0a0cdf64740129953cd60dbcff2c4f0e2f0e383d5f78436761d6c39b878890051008999889be9017f40ce7
+  languageName: node
+  linkType: hard
+
 "rollup@npm:^2.59.0":
   version: 2.59.0
   resolution: "rollup@npm:2.59.0"
@@ -4657,6 +4685,7 @@ __metadata:
     jest: ^27.3.1
     prettier: ^2.4.1
     rollup: ^2.59.0
+    rollup-plugin-serve: ^1.1.0
   languageName: unknown
   linkType: soft
 
